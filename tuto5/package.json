@@ -1,18 +1,18 @@
 {
-    "name": "tuto4",
+    "name": "tuto5",
     "version": "0.0.1",
-    "description": "A sample Node.js app from https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/les-modules-node-js-et-npm",
-    "main": "test.js",
+    "description": "A sample Node.js app from https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/le-framework-express-js",
+    "main": "index.js",
     "scripts": {
       "start": "node index.js"
     },
     "author": "Vincent Le Dû",
     "license": "MIT", 
     "dependencies": {
-        "markdown": "~0.5"
+        "express": "4.16.2"
     }, 
     "repository": {
         "type": "git",
         "url": "https://github.com/vincent-ledu/projets-nodejs.git"
-      }
-  }
+    }
+}
