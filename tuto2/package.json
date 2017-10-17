@@ -1,0 +1,11 @@
+{
+  "name": "tuto2",
+  "version": "0.0.1",
+  "description": "A sample Node.js app from https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/une-premiere-application-avec-node-js",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "author": "Vincent Le Dû",
+  "license": "MIT"
+}
