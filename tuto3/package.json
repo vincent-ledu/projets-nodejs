@@ -1,11 +1,11 @@
 {
-  "name": "tuto2",
+  "name": "tuto3",
   "version": "0.0.1",
   "description": "A sample Node.js app from https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/les-evenements-18",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Vincent Le Dû",
+  "author": "Vincent Le DÃ»",
   "license": "MIT"
 }

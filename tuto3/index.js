@@ -2,15 +2,25 @@
 
 var http = require('http');
 
-var server = http.createServer(function(req, res) {
+var server = http.createServer();
+/*
+function(req, res) {
   res.writeHead(200);
   res.end('Salut tout le monde !');
 });
+*/
+server.on('close', function() { // On ï¿½coute l'ï¿½vï¿½nement close
+  console.log('Bye bye !');
+});
 
-server.on('close', function() { // On écoute l'évènement close
-    console.log('Bye bye !');
-})
 
-server.listen(8080); // Démarre le serveur
+server.on('request', function(req, res) {   
+  res.writeHead(200);
+  res.end('Hello');
+});
 
-server.close(); // Arrête le serveur. Déclenche l'évènement close
+
+
+server.listen(8080); // Dï¿½marre le serveur
+
+//server.close(); // Arrï¿½te le serveur. Dï¿½clenche l'ï¿½vï¿½nement close
