@@ -1,0 +1,25 @@
+{
+  "name": "tuto-socketio",
+  "version": "0.0.1",
+  "description": "A sample Node.js app from https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/socket-io-passez-au-temps-reel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Vincent Le Dû",
+  "license": "MIT", 
+  "dependencies": {
+      "express": "~4.16.2",
+      "ejs":"~2.5.7",
+      "morgan": "~1.9.0",
+      "serve-favicon": "~2.4.5", 
+      "cookie-session": "~1.1.0",
+      "body-parser": "~1.18.2",
+      "socket.io": "^2.0.3",
+      "fs": "^0.0.1-security"
+  }, 
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/vincent-ledu/projets-nodejs.git"
+  }
+}
